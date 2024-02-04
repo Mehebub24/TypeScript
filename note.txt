@@ -19,3 +19,12 @@ A function accepts 2 Number
 A function returns a string
 
 Any is avoid from type Checking
+
+
+//
+function getValue(myNumbe:number){
+    if(myNumbe > 50){
+        return true
+    }
+    return"600 is OK"
+}
