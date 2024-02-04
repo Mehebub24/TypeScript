@@ -1,0 +1,22 @@
+Typescript is a development tool  (ts -> js) in the run time
+(js +()) = ts
+
+What typescript does ? 
+Static Checking (also go len is)
+
+What is Static Checking?
+whenever you type program the ide will constantly Checking program and when
+
+convert ts to js is -> tsc intro.ts and it will create a new fill of js at the same folder
+
+types in typescript 
+(primitives:-(Number,String,Boolean),Null,Undefined,Void,Object,Array,Tuples,....
+(Any,Never,Unkonwn)this are new 
+)
+
+Stiuation
+A function accepts 2 Number
+A function returns a string
+
+Syntax
+let 
