@@ -18,5 +18,4 @@ Stiuation
 A function accepts 2 Number
 A function returns a string
 
-Syntax
-let 
+Any is avoid from type Checking

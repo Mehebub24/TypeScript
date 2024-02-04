@@ -8,5 +8,11 @@ userId.toFixed()
 //boolean
 let isLoggedIn: boolean = false 
 
+//Any 
+let name;
+function getname(){
+    return "Mehebub"
+}
+name =getname()
 
 export{}
