@@ -31,5 +31,24 @@ const getHello = (s:string):string => {
     return "Hello"
 }
 
+//const names = ["Mehebub","kalapati","lima"]
+const names = [1,2,3]
+
+
+names.map((name :number)=>{   
+    return `hero is ${names}`
+})
+
+function consoleError (errmsg:string):void{
+    console.log(errmsg);
+    
+}
+
+
+function handleError(errmsg:string):never{
+    throw new Error(errmsg);
+    
+}
+
 
 export{}
