@@ -28,3 +28,10 @@ function getValue(myNumbe:number){
     }
     return"600 is OK"
 }
+
+Union is a type what you use this when it will Unkonwn data 
+union in array 
+
+const data3 :number[]| string[] = ["1","2","3"]✅✅
+const data3 :(number| string|Boolean)[] = ["1","2","3"]✅✅
+const data3 :(number| string)[] = ["1","2","3",4,5,6]❌❌
