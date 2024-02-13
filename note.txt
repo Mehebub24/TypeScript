@@ -34,4 +34,6 @@ union in array
 
 const data3 :number[]| string[] = ["1","2","3"]✅✅
 const data3 :(number| string|Boolean)[] = ["1","2","3"]✅✅
-const data3 :(number| string)[] = ["1","2","3",4,5,6]❌❌
+const data3 :(number| string)[] = ["1","2","3",4,5,6]✅✅
+const data3 : number [] | string [] = ["4",4]❌❌
+Tuple is a broad category Array in typescript which has some restrictions in big use case of data 

@@ -36,7 +36,7 @@ const names = [1,2,3]
 
 
 names.map((name :number)=>{   
-    return `hero is ${names}`
+    return `hero is ${name}`
 })
 
 function consoleError (errmsg:string):void{
