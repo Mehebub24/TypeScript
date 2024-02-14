@@ -39,3 +39,11 @@ const data3 : number [] | string [] = ["4",4]❌❌
 Tuple is a broad category Array in typescript which has some restrictions in big use case of data 
 
 Interface vs type
+
+project set up in TS
+
+9_project_setup ->  1.dir(mkrd dir) ->index.js(tsc src/index.js)
+                    2.src(mkrd src) ->index.ts
+                    3 index.html 
+                    4.package.json(npm init -y) = node package manager or npm manager
+                    5.tsconfig.json(tsc --init) = typescript configuraton 
