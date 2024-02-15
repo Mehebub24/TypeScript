@@ -16,10 +16,13 @@ interface Admin extends User{
 }
 
 
-const hitesh :User = {email:"mehebub",userId:49,
-startTrail:() =>{
+const mehebub :User = {
+    email:"mehebub@gmail.com",
+    userId:49,
+    
+    startTrail:() =>{
     return"trail starter"
-        },
+    },
     getCoupon:(name:"hitesh10",off:10)=>{
         return 10
     }
